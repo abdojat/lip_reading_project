@@ -39,7 +39,7 @@ def main():
         train_acc = 0.0
 
         for x, y in tqdm(train_loader, desc=f"Epoch {epoch} [train]"):
-            x, y = x.to(device), torch.tensor(y).to(device)
+            x, y = x.to(device), y.to(device)
             optimizer.zero_grad()
             logits = model(x)
             loss = criterion(logits, y)

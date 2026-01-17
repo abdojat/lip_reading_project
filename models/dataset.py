@@ -53,4 +53,4 @@ class MouthFramesDataset(Dataset):
         x = torch.from_numpy(x)
 
         y = LABEL_MAP[label_str]
-        return x, y
+        return x, torch.tensor(y, dtype=torch.long)
