@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+env/
+ENV/
+
+# Data and checkpoints
+checkpoints/
+data/
+*.pt
+*.pth
+
+# Logs and run-time files
+logs/
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS generated files
+Thumbs.db
+.DS_Store
